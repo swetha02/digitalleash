@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8633A74620600D3B007C8E5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8633A74520600D3B007C8E5A /* AppDelegate.m */; };
+		8633A74920600D3B007C8E5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8633A74820600D3B007C8E5A /* ViewController.m */; };
+		8633A74C20600D3B007C8E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8633A74A20600D3B007C8E5A /* Main.storyboard */; };
+		8633A74E20600D3B007C8E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8633A74D20600D3B007C8E5A /* Assets.xcassets */; };
+		8633A75120600D3B007C8E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8633A74F20600D3B007C8E5A /* LaunchScreen.storyboard */; };
+		8633A75420600D3B007C8E5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8633A75320600D3B007C8E5A /* main.m */; };
+		868247212065961500591875 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868247202065961500591875 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8633A75A20600D3B007C8E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8633A73920600D3A007C8E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8633A74020600D3A007C8E5A;
+			remoteInfo = DigitalLeash;
+		};
+		8633A76520600D3B007C8E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8633A73920600D3A007C8E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8633A74020600D3A007C8E5A;
+			remoteInfo = DigitalLeash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8633A74120600D3B007C8E5A /* DigitalLeash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalLeash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8633A74420600D3B007C8E5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8633A74520600D3B007C8E5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8633A74720600D3B007C8E5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8633A74820600D3B007C8E5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8633A74B20600D3B007C8E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8633A74D20600D3B007C8E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8633A75020600D3B007C8E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8633A75220600D3B007C8E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8633A75320600D3B007C8E5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8633A75920600D3B007C8E5A /* DigitalLeashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalLeashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8633A76420600D3B007C8E5A /* DigitalLeashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalLeashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		868247202065961500591875 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8633A73E20600D3A007C8E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868247212065961500591875 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8633A75620600D3B007C8E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8633A76120600D3B007C8E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8633A73820600D3A007C8E5A = {
+			isa = PBXGroup;
+			children = (
+				8633A74320600D3B007C8E5A /* DigitalLeash */,
+				8633A74220600D3B007C8E5A /* Products */,
+				8682471F2065961400591875 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8633A74220600D3B007C8E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8633A74120600D3B007C8E5A /* DigitalLeash.app */,
+				8633A75920600D3B007C8E5A /* DigitalLeashTests.xctest */,
+				8633A76420600D3B007C8E5A /* DigitalLeashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8633A74320600D3B007C8E5A /* DigitalLeash */ = {
+			isa = PBXGroup;
+			children = (
+				8633A74420600D3B007C8E5A /* AppDelegate.h */,
+				8633A74520600D3B007C8E5A /* AppDelegate.m */,
+				8633A74720600D3B007C8E5A /* ViewController.h */,
+				8633A74820600D3B007C8E5A /* ViewController.m */,
+				8633A74A20600D3B007C8E5A /* Main.storyboard */,
+				8633A74D20600D3B007C8E5A /* Assets.xcassets */,
+				8633A74F20600D3B007C8E5A /* LaunchScreen.storyboard */,
+				8633A75220600D3B007C8E5A /* Info.plist */,
+				8633A75320600D3B007C8E5A /* main.m */,
+			);
+			path = DigitalLeash;
+			sourceTree = "<group>";
+		};
+		8682471F2065961400591875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				868247202065961500591875 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8633A74020600D3A007C8E5A /* DigitalLeash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8633A76D20600D3B007C8E5A /* Build configuration list for PBXNativeTarget "DigitalLeash" */;
+			buildPhases = (
+				8633A73D20600D3A007C8E5A /* Sources */,
+				8633A73E20600D3A007C8E5A /* Frameworks */,
+				8633A73F20600D3A007C8E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalLeash;
+			productName = DigitalLeash;
+			productReference = 8633A74120600D3B007C8E5A /* DigitalLeash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8633A75820600D3B007C8E5A /* DigitalLeashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8633A77020600D3B007C8E5A /* Build configuration list for PBXNativeTarget "DigitalLeashTests" */;
+			buildPhases = (
+				8633A75520600D3B007C8E5A /* Sources */,
+				8633A75620600D3B007C8E5A /* Frameworks */,
+				8633A75720600D3B007C8E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8633A75B20600D3B007C8E5A /* PBXTargetDependency */,
+			);
+			name = DigitalLeashTests;
+			productName = DigitalLeashTests;
+			productReference = 8633A75920600D3B007C8E5A /* DigitalLeashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8633A76320600D3B007C8E5A /* DigitalLeashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8633A77320600D3B007C8E5A /* Build configuration list for PBXNativeTarget "DigitalLeashUITests" */;
+			buildPhases = (
+				8633A76020600D3B007C8E5A /* Sources */,
+				8633A76120600D3B007C8E5A /* Frameworks */,
+				8633A76220600D3B007C8E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8633A76620600D3B007C8E5A /* PBXTargetDependency */,
+			);
+			name = DigitalLeashUITests;
+			productName = DigitalLeashUITests;
+			productReference = 8633A76420600D3B007C8E5A /* DigitalLeashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8633A73920600D3A007C8E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "big nerd ranch";
+				TargetAttributes = {
+					8633A74020600D3A007C8E5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8633A75820600D3B007C8E5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8633A74020600D3A007C8E5A;
+					};
+					8633A76320600D3B007C8E5A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8633A74020600D3A007C8E5A;
+					};
+				};
+			};
+			buildConfigurationList = 8633A73C20600D3A007C8E5A /* Build configuration list for PBXProject "DigitalLeash" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8633A73820600D3A007C8E5A;
+			productRefGroup = 8633A74220600D3B007C8E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8633A74020600D3A007C8E5A /* DigitalLeash */,
+				8633A75820600D3B007C8E5A /* DigitalLeashTests */,
+				8633A76320600D3B007C8E5A /* DigitalLeashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8633A73F20600D3A007C8E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8633A75120600D3B007C8E5A /* LaunchScreen.storyboard in Resources */,
+				8633A74E20600D3B007C8E5A /* Assets.xcassets in Resources */,
+				8633A74C20600D3B007C8E5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8633A75720600D3B007C8E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8633A76220600D3B007C8E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8633A73D20600D3A007C8E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8633A74920600D3B007C8E5A /* ViewController.m in Sources */,
+				8633A75420600D3B007C8E5A /* main.m in Sources */,
+				8633A74620600D3B007C8E5A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8633A75520600D3B007C8E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8633A76020600D3B007C8E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8633A75B20600D3B007C8E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8633A74020600D3A007C8E5A /* DigitalLeash */;
+			targetProxy = 8633A75A20600D3B007C8E5A /* PBXContainerItemProxy */;
+		};
+		8633A76620600D3B007C8E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8633A74020600D3A007C8E5A /* DigitalLeash */;
+			targetProxy = 8633A76520600D3B007C8E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8633A74A20600D3B007C8E5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8633A74B20600D3B007C8E5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8633A74F20600D3B007C8E5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8633A75020600D3B007C8E5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8633A76B20600D3B007C8E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8633A76C20600D3B007C8E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8633A76E20600D3B007C8E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCWD443L8Y;
+				INFOPLIST_FILE = DigitalLeash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.DigitalLeash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8633A76F20600D3B007C8E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCWD443L8Y;
+				INFOPLIST_FILE = DigitalLeash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.DigitalLeash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8633A77120600D3B007C8E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCWD443L8Y;
+				INFOPLIST_FILE = DigitalLeashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.DigitalLeashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalLeash.app/DigitalLeash";
+			};
+			name = Debug;
+		};
+		8633A77220600D3B007C8E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCWD443L8Y;
+				INFOPLIST_FILE = DigitalLeashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.DigitalLeashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigitalLeash.app/DigitalLeash";
+			};
+			name = Release;
+		};
+		8633A77420600D3B007C8E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCWD443L8Y;
+				INFOPLIST_FILE = DigitalLeashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.DigitalLeashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigitalLeash;
+			};
+			name = Debug;
+		};
+		8633A77520600D3B007C8E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NCWD443L8Y;
+				INFOPLIST_FILE = DigitalLeashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.DigitalLeashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigitalLeash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8633A73C20600D3A007C8E5A /* Build configuration list for PBXProject "DigitalLeash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8633A76B20600D3B007C8E5A /* Debug */,
+				8633A76C20600D3B007C8E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8633A76D20600D3B007C8E5A /* Build configuration list for PBXNativeTarget "DigitalLeash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8633A76E20600D3B007C8E5A /* Debug */,
+				8633A76F20600D3B007C8E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8633A77020600D3B007C8E5A /* Build configuration list for PBXNativeTarget "DigitalLeashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8633A77120600D3B007C8E5A /* Debug */,
+				8633A77220600D3B007C8E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8633A77320600D3B007C8E5A /* Build configuration list for PBXNativeTarget "DigitalLeashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8633A77420600D3B007C8E5A /* Debug */,
+				8633A77520600D3B007C8E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8633A73920600D3A007C8E5A /* Project object */;
+}
